@@ -1,6 +1,6 @@
 import numpy as np
 from sklearn.base import BaseEstimator, MetaEstimatorMixin, clone
-from sklearn.utils.metaestimators import if_delegate_has_method
+from sklearn.utils.metaestimators import available_if
 from sklearn.utils.validation import has_fit_parameter
 
 from aif360.sklearn.utils import check_inputs, check_groups
